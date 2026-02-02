@@ -48,6 +48,7 @@ fastify.all("/proxy", async (request, reply) => {
       method: request.method,
       url: target.toString(),
       timeout: config.timeout,
+      maxRedirects: 0,
       headers: {
         ...request.headers,
         host: target.host,
