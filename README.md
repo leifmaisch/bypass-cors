@@ -19,7 +19,7 @@ const res = await fetch(
 
 ## Host it yourself
 
-**Docker** — Deploy to [Dokploy](https://dokploy.com), [Coolify](https://coolify.io), or [Sliplane](https://sliplane.com):
+**Docker** — Deploy to [Dokploy](https://dokploy.com), [Coolify](https://coolify.io), or [Sliplane](https://sliplane.io):
 
 
 **Local**
