@@ -2,11 +2,7 @@
 
 **CORS Proxy** — Bypass CORS restrictions. Access any API from your browser—fast, free, no signup.
 
-- Minimal latency
-- Secure & reliable
-- No rate limits
-
-[Try it live](https://bypass.cors.rest) · [View on GitHub](https://github.com/cors-rest/bypass-cors)
+[Try it live](https://cors.rest)
 
 ## Try it
 
@@ -22,6 +18,11 @@ const res = await fetch(
 ```
 
 ## Host it yourself
+
+**Docker** — Deploy to [Dokploy](https://dokploy.com), [Coolify](https://coolify.io), or [Sliplane](https://sliplane.com):
+
+
+**Local**
 
 ```bash
 git clone https://github.com/cors-rest/bypass-cors.git
@@ -54,7 +55,3 @@ curl -X POST http://localhost:3000/proxy \
 | `TIMEOUT` | `30000` | Proxy request timeout in milliseconds |
 | `ALLOWED_DOMAINS` | all | Comma-separated domains the proxy may fetch. Empty = allow all |
 | `ALLOWED_ORIGINS` | all | Comma-separated origins allowed to call the proxy. Empty = allow all |
-
----
-
-© 2026 [cors.rest](https://cors.rest)
